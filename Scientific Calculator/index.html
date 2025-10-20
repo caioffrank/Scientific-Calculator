@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calculadora Científica</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="icon" type="image/png" href="Images/calcular.png">
+</head>
+<body>
+  <div class="calculator">
+    <div class="top-bar">
+  <label class="theme-switch">
+    <input type="checkbox" id="themeToggle">
+    <span class="slider"></span>
+  </label>
+</div>
+
+    <input id="display" type="text" value="0" readonly>
+
+    <div class="buttons">
+      <button class="btnTop" onclick="clearDisplay()">C</button>
+      <button class="btnTop" onclick="deleteChar()">⌫</button>
+      <button class="btnTop" onclick="compute()">=</button>
+      <button class="btnOpps" onclick="addChar('3.14159265359')">π</button>
+      <button class="btnMath" onclick="percent()">%</button>
+
+      <button class="btnNum" onclick="addChar('7')">7</button>
+      <button class="btnNum" onclick="addChar('8')">8</button>
+      <button class="btnNum" onclick="addChar('9')">9</button>
+      <button class="btnOpps" onclick="addChar('**')">xʸ</button>
+      <button class="btnMath" onclick="addChar('/')">÷</button>
+
+      <button class="btnNum" onclick="addChar('4')">4</button>
+      <button class="btnNum" onclick="addChar('5')">5</button>
+      <button class="btnNum" onclick="addChar('6')">6</button>
+      <button class="btnOpps" onclick="applyLn()">ln</button>
+      <button class="btnMath" onclick="addChar('*')">×</button>
+
+      <button class="btnNum" onclick="addChar('1')">1</button>
+      <button class="btnNum" onclick="addChar('2')">2</button>
+      <button class="btnNum" onclick="addChar('3')">3</button>
+      <button class="btnOpps" onclick="applySqrt()">√</button>
+      <button class="btnMath" onclick="addChar('-')">−</button>
+
+      <button class="btnMath" onclick="changeSign()">±</button>
+      <button class="btnNum" onclick="addChar('0')">0</button>
+      <button class="btnMath" onclick="addChar('.')">.</button>
+      <button class="btnOpps" onclick="applySquare()">x²</button>
+      <button class="btnMath" onclick="addChar('+')">+</button>
+
+      <button class="btnMath" onclick="addChar('(')">(</button>
+      <button class="btnMath" onclick="addChar(')')">)</button>
+      <button class="btnMath" onclick="applyCos()">cos</button>
+      <button class="btnMath" onclick="applySin()">sin</button>
+      <button class="btnMath" onclick="applyTan()">tan</button>
+    </div>
+  </div>
+</body>
+</html>
