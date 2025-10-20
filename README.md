@@ -9,11 +9,3 @@ Com controle de tema: alternância entre modo escuro e modo claro;
 Exibição de resultado com tratamento de erros e precisão ajustada;
 
 Interface responsiva e animada, com efeito de clique e hover em todos os botões.
-
-Estrutura:
-/
-├── index.html
-├── style.css
-├── script.js
-└── Images/
-    └── calcular.png
