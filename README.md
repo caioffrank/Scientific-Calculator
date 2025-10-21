@@ -1,4 +1,4 @@
-Olá,
+Olá Dev,
 
 Nesse projeto criei uma calculadora científica moderna desenvolvida com HTML, CSS e JavaScript.
 
